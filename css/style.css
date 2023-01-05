@@ -1,1 +1,116 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+}
+
+#services {
+  padding: 60px 0;
+}
+#services .services__title h2 {
+  color: #404145;
+  font-weight: 700;
+}
+#services .services__content {
+  margin-top: 25px;
+}
+#services .services__content .item {
+  height: 342px;
+  width: 255px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 15px;
+}
+#services .services__content .item p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+#services .services__content .item h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+#services .services__content .item .item--1 {
+  background-image: url("./../../images/logo-design-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--2 {
+  background-image: url("./../../images/wordpress-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--3 {
+  background-image: url("./../../images/voiceover-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--4 {
+  background-image: url("./../../images/animated-explainer-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--5 {
+  background-image: url("./../../images/social-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--6 {
+  background-image: url("./../../images/seo-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--7 {
+  background-image: url("./../../images/illustration-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--8 {
+  background-image: url("./../../images/translation-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--9 {
+  background-image: url("./../../images/data-entry-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .services__content .item .item--10 {
+  background-image: url("./../../images/book-covers-2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#services .slick-prev:before, #services .slick-next:before {
+  font-size: 2.5rem;
+  color: #404145;
+}
+#services .slick-next {
+  margin-right: 35px;
+}
+#services .slick-prev {
+  margin-left: 15px;
+}/*# sourceMappingURL=style.css.map */
