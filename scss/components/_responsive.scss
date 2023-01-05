@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px){
+    .container{
+        margin: 0 auto;
+        max-width: 1400px;
+    }
+}
+@media screen and (min-width: 768px){
+    .logo__fiverr g:first-of-type{
+        fill: #fff;
+    }
+}

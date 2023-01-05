@@ -1,0 +1,16 @@
+.btn-nav{
+    padding: 7px 20px;
+    font-weight: $fw-7;
+    color: $color-w;
+    font-size: $fs-bt;
+    background-color: transparent;
+    border: 1px solid $color-w;
+    border-radius: 5px;
+    line-height: 15px;
+    margin: auto 0;
+    transition: 0.4s;
+    &:hover{
+        background-color: #1dbf73;
+        border-color: #1dbf73;
+    }
+}
