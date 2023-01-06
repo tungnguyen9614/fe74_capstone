@@ -21,7 +21,7 @@
   width: 255px;
   border-radius: 8px;
   overflow: hidden;
-  margin: 0 15px;
+  margin-right: 15px;
 }
 #services .services__content .item p {
   font-size: 16px;
@@ -105,12 +105,36 @@
   height: 100%;
 }
 #services .slick-prev:before, #services .slick-next:before {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #404145;
 }
 #services .slick-next {
   margin-right: 35px;
 }
 #services .slick-prev {
-  margin-left: 15px;
+  margin-left: -15px;
+  z-index: 1;
+}
+
+#trusted {
+  background-color: #fafafa;
+}
+#trusted .trusted__content {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#trusted .trusted__content span {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #b5b6ba;
+}
+#trusted .trusted__content ul {
+  display: flex;
+  margin-top: 15px;
+}
+#trusted .trusted__content ul li {
+  list-style: none;
+  margin: 0 35px;
 }/*# sourceMappingURL=style.css.map */
