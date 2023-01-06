@@ -113,4 +113,27 @@
 }
 #services .slick-prev {
   margin-left: 15px;
+}
+
+#trusted {
+  background-color: #fafafa;
+}
+#trusted .trusted__content {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#trusted .trusted__content span {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #b5b6ba;
+}
+#trusted .trusted__content ul {
+  display: flex;
+  margin-top: 15px;
+}
+#trusted .trusted__content ul li {
+  list-style: none;
+  margin: 0 35px;
 }/*# sourceMappingURL=style.css.map */
