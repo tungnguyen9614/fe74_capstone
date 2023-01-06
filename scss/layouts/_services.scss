@@ -16,7 +16,7 @@
             width: 255px;
             border-radius: $bd-2;
             overflow: hidden;
-            margin: 0 $mg-6;
+            margin-right: $mg-6;
     
             p {
                 @include style-text($fs-1,$fw-5,$color-white-1);
@@ -89,7 +89,7 @@
     }
 
     .slick-prev:before, .slick-next:before {
-        font-size: $fs-6;
+        font-size: $fs-9;
         color: $color-black-1;
     }
 
@@ -98,7 +98,8 @@
     }
 
     .slick-prev {
-        margin-left: $mg-6;
+        margin-left: -$mg-6;
+        z-index: 1;
     }
 
     
