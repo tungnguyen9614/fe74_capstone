@@ -2,8 +2,89 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  font-family: "Mulish", sans-serif;
+}
+
+.btn-nav {
+  padding: 7px 20px;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  line-height: 15px;
+  margin: auto 0;
+  transition: 0.4s;
+}
+.btn-nav:hover {
+  background-color: #1dbf73;
+  border-color: #1dbf73;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo__fiverr g:first-of-type {
+    fill: #fff;
+  }
+}
+header .container {
+  padding: 0;
+}
+header .nav-item {
+  position: relative;
+}
+header .nav-link {
+  color: #ffffff;
+  font-weight: 700;
+}
+header .nav-link i {
+  font-size: 14px;
+}
+header .fiverr__header {
+  height: 80px;
+  padding: 0;
+}
+header .explore_sub {
+  position: absolute;
+  top: 120%;
+  left: -270%;
+  width: 490px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px #b5b6ba;
+}
+header .explore_sub a {
+  text-decoration: none;
+}
+header .explore_sub a:hover p, header .explore_sub a:hover span {
+  color: #1dbf73 !important;
+}
+header .explore_sub a p {
+  margin: 0;
+  color: #62646a;
+  font-weight: 500;
+}
+header .explore_sub a span {
+  display: block;
+  color: #b5b6ba;
+  font-size: 14px;
+  font-weight: 500;
+}
+header .explore_sub li {
+  list-style: none;
+  width: 44%;
+  margin-right: 26px;
+  margin-bottom: 16px;
 }
 
 #services {
