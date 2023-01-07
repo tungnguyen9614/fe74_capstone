@@ -2,133 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
-  font-weight: 400;
-=======
->>>>>>> main
   font-size: 16px;
   font-family: "Mulish", sans-serif;
 }
 
-<<<<<<< HEAD
-.btn-nav {
-  padding: 7px 20px;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 14px;
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  line-height: 15px;
-  margin: auto 0;
-  transition: 0.4s;
-}
-.btn-nav:hover {
-  background-color: #1dbf73;
-  border-color: #1dbf73;
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    margin: 0 auto;
-    max-width: 1400px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .logo__fiverr g:first-of-type {
-    fill: #fff;
-  }
-}
-header .container {
-  padding: 0;
-}
-header .nav-item {
-  position: relative;
-}
-header .nav-item .dropdown-toggle::after {
-  display: none !important;
-}
-header .nav-link {
-  color: #ffffff;
-  font-weight: 600;
-}
-header .nav-link i {
-  font-size: 14px;
-}
-header .fiverr__header {
-  height: 80px;
-  padding: 0;
-}
-header .explore_sub {
-  position: absolute;
-  top: 120%;
-  left: -270%;
-  width: 490px;
-  padding: 24px;
-  box-sizing: border-box;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 3px 5px #b5b6ba;
-}
-header .explore_sub a {
-  text-decoration: none;
-}
-header .explore_sub a:hover p, header .explore_sub a:hover span {
-  color: #1dbf73 !important;
-}
-header .explore_sub a p {
-  margin: 0;
-  color: #62646a;
-  font-weight: 400;
-}
-header .explore_sub a span {
-  display: block;
-  color: #b5b6ba;
-  font-size: 14px;
-  font-weight: 400;
-}
-header .explore_sub li {
-  list-style: none;
-  width: 44%;
-  margin-right: 26px;
-  margin-bottom: 16px;
-}
-header .explore_sub .triangle::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  top: -3%;
-  left: 44%;
-  background-color: white;
-  transform: rotate(45deg);
-}
-header .explore_sub .dropdown-item {
-  padding: 0;
-  white-space: normal;
-}
-header .explore_sub .dropdown-item:hover {
-  background-color: white;
-}
-header .ticks {
-  display: inline;
-  padding-right: 16px;
-}
-header .drop-item {
-  width: 224px;
-  padding: 16px 0;
-}
-header .drop-item .pd-46 {
-  padding: 9px 58px;
-}
-header .english__sub .dropdown-menu {
-  left: -154%;
-  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.05);
-}
-header .english__sub .dropdown-item {
-  color: #62646a;
-  font-weight: 600;
-=======
 #services {
   padding: 60px 0;
 }
@@ -260,5 +137,4 @@ header .english__sub .dropdown-item {
 #trusted .trusted__content ul li {
   list-style: none;
   margin: 0 35px;
->>>>>>> main
 }/*# sourceMappingURL=style.css.map */
