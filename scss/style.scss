@@ -1,3 +1,4 @@
+
 // helpers 
 @import "./helpers/variables";
 @import "./helpers/mixins";
@@ -13,3 +14,8 @@
 // layout 
 @import "./layouts/header";
 
+@import "./helpers/variables";
+@import "./base/reset";
+@import "./helpers/mixin";
+@import "./layouts/services";
+@import "./layouts/trusted";
