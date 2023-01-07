@@ -1,0 +1,106 @@
+#services {
+    padding: $pd-7 0;
+
+    .services__title {
+        h2 {
+            color: $color-black-1;
+            font-weight: $fw-6;
+        }        
+    }
+
+    .services__content {
+        margin-top: $mg-2;
+
+        .item {
+            height: 342px;
+            width: 255px;
+            border-radius: $bd-2;
+            overflow: hidden;
+            margin-right: $mg-6;
+    
+            p {
+                @include style-text($fs-1,$fw-5,$color-white-1);
+                margin-bottom: 0;
+            }
+    
+            h3 {
+                @include style-text($fs-5,$fw-7,$color-white-1)
+            }
+
+             
+                    // @each $item in $services {
+                        
+                    //     @for $items from 1 through 10 {
+                    //     .item--#{$items} {
+                    //         @include style-background(url("./../../images/#{$item}.png"));
+                    //     }
+                        
+                    // }
+                        
+                    // @for $items from 1 through 10 {
+                    //     .item--#{$items} {
+                    //         @each $item in $services {
+                    //             @include style-background(url("./../../images/#{$item}.png"));
+                    //         }                  
+                    //     }                    
+                
+    
+            .item--1 {
+                @include style-background(url("./../../images/logo-design-2x.png"));
+            }
+
+            .item--2 {
+                @include style-background(url("./../../images/wordpress-2x.png"));
+            }
+
+            .item--3 {
+                @include style-background(url("./../../images/voiceover-2x.png"));
+            }
+
+            .item--4 {
+                @include style-background(url("./../../images/animated-explainer-2x.png"));
+            }
+
+            .item--5 {
+                @include style-background(url("./../../images/social-2x.png"));
+            }
+
+            .item--6 {
+                @include style-background(url("./../../images/seo-2x.png"));
+            }
+
+            .item--7 {
+                @include style-background(url("./../../images/illustration-2x.png"));
+            }
+
+            .item--8 {
+                @include style-background(url("./../../images/translation-2x.png"));
+            }
+
+            .item--9 {
+                @include style-background(url("./../../images/data-entry-2x.png"));
+            }
+
+            .item--10 {
+                @include style-background(url("./../../images/book-covers-2x.png"));
+            }
+    
+        }
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: $fs-9;
+        color: $color-black-1;
+    }
+
+    .slick-next {
+        margin-right: $mg-7;
+    }
+
+    .slick-prev {
+        margin-left: -$mg-6;
+        z-index: 1;
+    }
+
+    
+}
