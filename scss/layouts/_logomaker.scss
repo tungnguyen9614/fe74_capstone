@@ -1,0 +1,38 @@
+#logoMaker {
+    background-color: $color-blue-1;
+    position: relative;
+    overflow: hidden;
+    padding: $pd-11 $pd-7;
+    .logoMaker__context {
+        .logoMaker__title {
+            @include style-text($fs-8,$fw-5,$color-white-1);
+            font-family: domaine;
+            margin-top: $mg-5;
+        }
+        .logoMaker__title__i {
+            @include style-text($fs-8,$fw-3,$color-white-1);
+        }
+
+        p {
+            color: $color-white-1;
+        }
+
+        .logoMaker__btn {
+            color: #446ee7;
+            font-weight: bold;
+            border: none;
+            padding: 7px 20px;
+            border-radius: 5px;
+        }
+    }
+
+    .logoMaker__img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+
+   
+}

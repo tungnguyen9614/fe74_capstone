@@ -1,3 +1,7 @@
+@font-face {
+  font-family: domaine;
+  src: url("./../../fonts/FontsFree-Net-DomaineDisplayBold.ttf");
+}
 * {
   padding: 0;
   margin: 0;
@@ -218,4 +222,81 @@ header .explore_sub li {
 #trusted .trusted__content ul li {
   list-style: none;
   margin: 0 35px;
+}
+
+#testinonials {
+  margin-bottom: 70px;
+}
+#testinonials .testi__video video {
+  width: 466px;
+}
+#testinonials .testi__context {
+  padding: 0 44px 0 60px;
+}
+#testinonials .testi__context .testi__name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #74767e;
+}
+#testinonials .testi__context .testi__logo {
+  border-left: 1px solid #404145;
+  margin-left: 5px;
+}
+#testinonials .testi__context .testi__logo img {
+  height: 36px;
+  display: inline-block;
+  margin-left: 5px;
+}
+#testinonials .testi__context blockquote .quote {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #003912;
+  font-family: domaine;
+}
+#testinonials .slick-prev:before, #testinonials .slick-next:before {
+  font-size: 3.5rem;
+  color: #404145;
+}
+#testinonials .slick-next {
+  margin-right: 35px;
+}
+#testinonials .slick-prev {
+  margin-left: -15px;
+  z-index: 1;
+}
+
+#logoMaker {
+  background-color: #446ee7;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 60px;
+}
+#logoMaker .logoMaker__context .logoMaker__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: domaine;
+  margin-top: 10px;
+}
+#logoMaker .logoMaker__context .logoMaker__title__i {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+#logoMaker .logoMaker__context p {
+  color: #ffffff;
+}
+#logoMaker .logoMaker__context .logoMaker__btn {
+  color: #446ee7;
+  font-weight: bold;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+#logoMaker .logoMaker__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
