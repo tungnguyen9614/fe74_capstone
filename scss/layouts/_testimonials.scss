@@ -1,0 +1,35 @@
+#testinonials {
+    margin-bottom: $mg-3;
+    .testi__video video {
+        width: 466px;
+    }
+
+    .testi__context {
+        padding: 0 $pd-4 0 $pd-7;
+
+        .testi__name {
+            @include style-text($fs-2,$fw-4,$color-gray-2);
+        }
+
+        .testi__logo {
+            border-left: 1px solid $color-black-1;
+            margin-left: $mg-1;
+            img {
+                height: $hei-1;
+                display: inline-block;
+                margin-left: $mg-1;
+            }
+        }
+
+        blockquote {   
+            .quote {
+                @include style-text($fs-7,$fw-4,$color-green-1);
+                font-family: domaine;
+            }       
+        }
+    }
+
+    @include style-arrow;
+
+  
+}
