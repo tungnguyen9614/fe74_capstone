@@ -3,6 +3,7 @@
     position: relative;
     overflow: hidden;
     padding: $pd-11 $pd-7;
+    margin-bottom: $mg-4;
     .logoMaker__context {
         .logoMaker__title {
             @include style-text($fs-8,$fw-5,$color-white-1);
@@ -33,6 +34,4 @@
         display: flex;
         align-items: center;
     }
-
-   
 }

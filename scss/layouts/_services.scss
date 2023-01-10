@@ -3,8 +3,7 @@
 
     .services__title {
         h2 {
-            color: $color-black-1;
-            font-weight: $fw-6;
+            @include style-text($fs-8,$fw-6,$color-black-1);
         }        
     }
 
