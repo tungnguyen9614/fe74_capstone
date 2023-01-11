@@ -5,6 +5,9 @@
     padding: $pd-11 $pd-7;
     margin-bottom: $mg-4;
     .logoMaker__context {
+        position: relative;
+        z-index: 1;
+        
         .logoMaker__title {
             @include style-text($fs-8,$fw-5,$color-white-1);
             font-family: domaine;

@@ -273,6 +273,10 @@ header .explore_sub li {
   padding: 20px 60px;
   margin-bottom: 60px;
 }
+#logoMaker .logoMaker__context {
+  position: relative;
+  z-index: 1;
+}
 #logoMaker .logoMaker__context .logoMaker__title {
   font-size: 2rem;
   font-weight: 600;
@@ -373,4 +377,108 @@ header .explore_sub li {
     position: relative;
     margin-left: 40px;
   }
+}
+
+#signup {
+  background-image: url("./../../images/bg-signup-1400-x1.png");
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0 80px 80px;
+}
+#signup .signup__content .signup__context {
+  margin-bottom: 40px;
+}
+#signup .signup__content .signup__context span {
+  font-family: domaine;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+#signup .signup__content .signup__context span .signup__i {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+#signup .signup__content .signup__button {
+  color: #ffffff;
+  padding: 13px 30px;
+  background-color: #1dbf73;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 70px;
+  border-top: 1px solid #b5b6ba;
+}
+footer .footer__top {
+  padding: 60px 0;
+  border-bottom: 1px solid #b5b6ba;
+}
+footer .footer__top .footer__listTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+footer .footer__top .footer__list {
+  list-style: none;
+}
+footer .footer__top .footer__list li {
+  margin: 10px 0;
+}
+footer .footer__top .footer__list li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #74767e;
+}
+footer .footer__top .footer__list li .sub__a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #babbbe;
+}
+footer .footer__bottom {
+  margin-top: 25px;
+}
+footer .footer__bottom .footer__left .footer__img {
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 25px;
+}
+footer .footer__bottom .footer__left span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b5b6ba;
+}
+footer .footer__bottom .footer__right .socials li {
+  list-style: none;
+}
+footer .footer__bottom .footer__right .socials li a i {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #74767e;
+  margin: 0 15px;
+}
+footer .footer__bottom .footer__right .settings li {
+  list-style: none;
+  margin: 0 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #74767e;
+  cursor: pointer;
+}
+footer .footer__bottom .footer__right .settings li span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #74767e;
+  font-weight: 600;
+}
+footer .footer__bottom .footer__right .settings li .fa-person {
+  color: #babbbe;
+  width: 33px;
+  height: 33px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #b5b6ba;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */

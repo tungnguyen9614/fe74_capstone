@@ -1,0 +1,27 @@
+#signup {
+    background-image: url("./../../images/bg-signup-1400-x1.png");
+    background-position: center;
+    background-size: cover;   
+    padding: 80px 0 80px 80px;
+    .signup__content {
+        .signup__context{
+            margin-bottom: $mg-8;
+
+            span {
+                font-family: domaine;
+                @include style-text($fs-10,$fw-6,$color-white-1);           
+
+                .signup__i {
+                    @include style-text($fs-11,$fw-3,$color-white-1);                       
+                }
+            }          
+        }
+        .signup__button {
+            color: $color-white-1;
+            padding: $pd-3 $pd-12;
+            background-color: $color-green-2;
+            font-weight: bold;
+            border-radius: $bd-2;
+        }     
+    }
+}
