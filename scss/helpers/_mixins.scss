@@ -17,3 +17,18 @@
     color: $color;
     background-color: $bgcolor;
 }
+@mixin style-arrow() {
+    .slick-prev:before, .slick-next:before {
+        font-size: $fs-9;
+        color: $color-black-1;
+    }
+
+    .slick-next {
+        margin-right: $mg-7;
+    }
+
+    .slick-prev {
+        margin-left: -$mg-6;
+        z-index: 1;
+    }
+}

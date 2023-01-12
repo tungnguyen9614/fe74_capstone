@@ -1,3 +1,7 @@
+@font-face {
+  font-family: domaine;
+  src: url("./../../fonts/FontsFree-Net-DomaineDisplayBold.ttf");
+}
 * {
   padding: 0;
   margin: 0;
@@ -275,8 +279,9 @@ header .search__hiden {
   padding: 60px 0;
 }
 #services .services__title h2 {
-  color: #404145;
+  font-size: 2rem;
   font-weight: 700;
+  color: #404145;
 }
 #services .services__content {
   margin-top: 25px;
