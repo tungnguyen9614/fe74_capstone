@@ -1,0 +1,74 @@
+body {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.81) 17.97%, rgba(0, 0, 0, 0.31) 57.6%, transparent 77.6%), url(/images/start__selling.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  padding: 24px 64px;
+  height: 100vh;
+  color: white;
+}
+body #content {
+  margin: auto 0;
+}
+body #content h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+body #content .crossbar {
+  height: 3px;
+  width: 55px;
+  background-color: white;
+  margin: 40px 0;
+}
+body #content .sub__title h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+body #content .sub__title p {
+  font-size: 18px;
+  font-weight: 400;
+}
+body #content .form-inline {
+  width: 572px;
+  margin-bottom: 24px;
+}
+body #content .form-inline .form-control {
+  width: 88%;
+  border-radius: 8px 0 0 8px;
+  height: 45px;
+}
+body #content .form-inline .form-control:focus {
+  box-shadow: none;
+  border-color: white;
+}
+body #content .form-inline .form-control:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+body #content .form-inline .btn-search {
+  background: #19a463;
+  border-radius: 0 8px 8px 0;
+  height: 45px;
+  width: 45px;
+}
+body #content .form-inline .btn-search:hover {
+  background-color: #188652;
+}
+body #content .popular_button p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-right: 12px;
+}
+body #content .popular_button .btn-popular {
+  border: 1px solid #fafafa;
+  border-radius: 40px;
+  background: rgba(34, 35, 37, 0.9);
+  padding: 3px 12px;
+  line-height: 1;
+  font-size: 14px;
+  height: 27px;
+  color: white;
+  margin-right: 12px;
+}/*# sourceMappingURL=style_startselling.css.map */

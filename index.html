@@ -19,56 +19,60 @@
   <link rel="stylesheet" href="./libs/slick/slick.css">
   <link rel="stylesheet" href="./libs/slick/slick-theme.css">
 
-  <link rel="stylesheet" href="./css/style.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
 
   <!-- Header -->
   <header>
-    <!-- fixed-top -->
-    <div class="container ">
-      <nav class="navbar navbar-expand-md bg-dark fiverr__header">
-        <!-- Brand -->
-        <a class="navbar-brand logo__fiverr" href="#">
-          <svg width="89" height="27" viewBox="0 0 89 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g fill="#404145">
-              <path
-                d="m81.6 13.1h-3.1c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-13.4h-2.5c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-18.4h6v2.8c1-2.2 2.3-2.8 4.3-2.8h7.3v2.8c1-2.2 2.3-2.8 4.3-2.8h2zm-25.2 5.6h-12.4c.3 2.1 1.6 3.2 3.7 3.2 1.6 0 2.7-.7 3.1-1.8l5.3 1.5c-1.3 3.2-4.5 5.1-8.4 5.1-6.5 0-9.5-5.1-9.5-9.5 0-4.3 2.6-9.4 9.1-9.4 6.9 0 9.2 5.2 9.2 9.1 0 .9 0 1.4-.1 1.8zm-5.7-3.5c-.1-1.6-1.3-3-3.3-3-1.9 0-3 .8-3.4 3zm-22.9 11.3h5.2l6.6-18.3h-6l-3.2 10.7-3.2-10.8h-6zm-24.4 0h5.9v-13.4h5.7v13.4h5.9v-18.4h-11.6v-1.1c0-1.2.9-2 2.2-2h3.5v-5h-4.4c-4.3 0-7.2 2.7-7.2 6.6v1.5h-3.4v5h3.4z">
-              </path>
-            </g>
-            <g fill="#1dbf73">
-              <path d="m85.3 27c2 0 3.7-1.7 3.7-3.7s-1.7-3.7-3.7-3.7-3.7 1.7-3.7 3.7 1.7 3.7 3.7 3.7z"></path>
-            </g>
-          </svg>
-        </a>
+    <div class="bgcolor fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-md fiverr__header justify-content-between">
+          <!-- Brand -->
+          <!-- <div class="nav__logo d-flex"> -->
+          <a class="navbar-brand logo__fiverr" href="#">
+            <svg width="89" height="27" viewBox="0 0 89 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#404145">
+                <path
+                  d="m81.6 13.1h-3.1c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-13.4h-2.5c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-18.4h6v2.8c1-2.2 2.3-2.8 4.3-2.8h7.3v2.8c1-2.2 2.3-2.8 4.3-2.8h2zm-25.2 5.6h-12.4c.3 2.1 1.6 3.2 3.7 3.2 1.6 0 2.7-.7 3.1-1.8l5.3 1.5c-1.3 3.2-4.5 5.1-8.4 5.1-6.5 0-9.5-5.1-9.5-9.5 0-4.3 2.6-9.4 9.1-9.4 6.9 0 9.2 5.2 9.2 9.1 0 .9 0 1.4-.1 1.8zm-5.7-3.5c-.1-1.6-1.3-3-3.3-3-1.9 0-3 .8-3.4 3zm-22.9 11.3h5.2l6.6-18.3h-6l-3.2 10.7-3.2-10.8h-6zm-24.4 0h5.9v-13.4h5.7v13.4h5.9v-18.4h-11.6v-1.1c0-1.2.9-2 2.2-2h3.5v-5h-4.4c-4.3 0-7.2 2.7-7.2 6.6v1.5h-3.4v5h3.4z">
+                </path>
+              </g>
+              <g fill="#1dbf73">
+                <path d="m85.3 27c2 0 3.7-1.7 3.7-3.7s-1.7-3.7-3.7-3.7-3.7 1.7-3.7 3.7 1.7 3.7 3.7 3.7z"></path>
+              </g>
+            </svg>
+          </a>
+          <div class="nav__search">
+            <nav class="ht">
+              <form class="form-inline" action="/action_page.php">
+                <input class="search__input" type="search" placeholder="What service are you looking for today?">
+                <button class="btn btn-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+            </nav>
+          </div>
 
-        <!-- <nav class="navbar navbar-expand-sm">
-          <form class="form-inline" action="/action_page.php">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-success" type="submit">Search</button>
-          </form>
-        </nav> -->
-
-
-
-        <!-- Toggler/collapsibe Button -->
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
+          <!-- </div> -->
+          <!-- Toggler/collapsibe Button -->
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
 
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Fiverr Business</a>
+              <a class="nav-link scroll-green" href="#">Fiverr Business</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Explore</a>
+              <a class="nav-link scroll dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Explore</a>
               <div class="explore_sub dropdown-menu">
                 <ul class="d-flex flex-wrap triangle">
                   <li class="dropdown-item"><a href="">
@@ -107,7 +111,7 @@
               </div>
             </li>
             <li class="nav-item english__sub">
-              <a class="nav-link english__sub dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><i
+              <a class="nav-link scroll english__sub dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><i
                   class="fa-solid fa-globe"></i> English</a>
               <div class="dropdown-menu drop-item">
                 <a class="dropdown-item" href="#">
@@ -128,14 +132,232 @@
                 <a class="dropdown-item pd-46" href="#">Nederlands</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">US$ USD</a>
+            <li class="nav-item usd__sub">
+              <a class="nav-link scroll dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">US$ USD</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="">
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+                      <span class="selected-icon" style="width:10px;height:10px" aria-hidden="true">
+                        <svg width="10" height="10" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M13.6202 2.6083L5.4001 10.8284L2.37973 7.80805C2.23329 7.66161 1.99585 7.66161 1.84939 7.80805L0.96551 8.69193C0.819073 8.83836 0.819073 9.0758 0.96551 9.22227L5.13492 13.3917C5.28135 13.5381 5.51879 13.5381 5.66526 13.3917L15.0344 4.02252C15.1809 3.87608 15.1809 3.63865 15.0344 3.49218L14.1505 2.6083C14.0041 2.46186 13.7667 2.46186 13.6202 2.6083Z">
+                          </path>
+                        </svg>
+                      </span>
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+                      <div class="text">
+                        <h6>Euro</h6>
+                        <p>EUR - €</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>British Pound</h6>
+                        <p>GBP - £</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Australian Dollar</h6>
+                        <p>AUD - A$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Canadian Dollar</h6>
+                        <p>CAD - CA$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Israeli Shekel</h6>
+                        <p>ILS - ₪</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Brazilian Real</h6>
+                        <p>BRL - R$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Hong Kong Dollar</h6>
+                        <p>HKD - HK$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      </span>
+                      <div class="text">
+                        <h6>Swedish Krona</h6>
+                        <p>SEK - SEK</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      </span>
+                      <div class="text">
+                        <h6>New Zealand Dollar</h6>
+                        <p>NZD - NZ$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Singapore Dollar</h6>
+                        <p>SGD - SGD</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Swiss Franc</h6>
+                        <p>CHF - CHF</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>South African Rand</h6>
+                        <p>ZAR - ZAR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>Chinese Renminbi Yuan</h6>
+                        <p>CNY - CN¥</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="usd__item">
+                    <div class="usd__sub__container">
+                      <div class="text">
+                        <h6>United States Dollar</h6>
+                        <p>USD - US$</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Become a Seller</a>
+              <a class="nav-link scroll" href="./start_selling.html">Become a Seller</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign in</a>
+              <a class="nav-link scroll" href="#">Sign in</a>
             </li>
             <button class="btn-nav">Join</button>
           </ul>
@@ -145,7 +367,75 @@
   </header>
 
   <!-- Carousel -->
+  <section id="carousel">
+    <div class="col-lg-12 pd-0">
+      <div class="carousel__content">
+        <div class="caruseol__bg">
+          <div class="hero__andrea">
+            <div class="container">
+              <div class="hero__name d-flex flex-row-reverse align-content-end">
+                <p class="d-flex align-content-end">Andrea Fashion Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero__moon">
+            <div class="container">
+              <div class="hero__name d-flex flex-row-reverse align-content-end">
+                <p class="d-flex align-content-end">Moon Marketing Expert</p>
+              </div>
 
+            </div>
+          </div>
+          <div class="hero__ritika">
+            <div class="container">
+              <div class="hero__name d-flex flex-row-reverse align-content-end">
+                <p class="d-flex align-content-end">Ritika Shoemaker and Designer</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="hero__zach">
+            <div class="container">
+              <div class="hero__name d-flex flex-row-reverse align-content-end">
+                <p class="d-flex align-content-end">Zach, Bar Owner</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="hero__grabrielle">
+            <div class="container">
+              <div class="hero__name d-flex flex-row-reverse ">
+                <p class="d-flex align-content-end">Gabrielle, Video Editor</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel__search">
+          <div class="search__item">
+            <h1>Find the perfect <i>freelance</i> <br>
+              services for your business</h1>
+            <div class="seach__carsousel">
+              <form class="form-inline" action="/action_page.php">
+                <input class="form-control" type="search" placeholder="Try 'building mobile app' ">
+                <button class="btn btn-success" type="submit">Search</button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </form>
+            </div>
+            <div class="popular d-flex">
+              <p>Popular:</p>
+              <div class="btn__popular">
+                <button type="button" class="btn btn-primary">Website Design</button>
+                <button type="button" class="btn btn-primary">WordPress</button>
+                <button type="button" class="btn btn-primary">Logo Design</button>
+                <button type="button" class="btn btn-primary">Video Editing</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Trusted -->
   <section id="trusted">
@@ -242,13 +532,197 @@
   </section>
 
   <!-- Proposition -->
-
+  <section id="proposition">
+    <div class="container">
+      <div class="col-lg-12 d-flex">
+        <div class="col-lg-6 pd-0">
+          <div class="proposition__text">
+            <h2>A whole world of freelance <br> talent at your fingertips</h2>
+            <ul>
+              <li>
+                <p><span class="XQskgrQ check-icon" aria-hidden="true"
+                    style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg width="24" height="24"
+                      viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
+                      </path>
+                      <path
+                        d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
+                      </path>
+                    </svg></span>
+                  The best for every budget</p>
+                <span class="text">
+                  Find high-quality services at every price point. No <br> hourly rates, just project-based pricing.
+                </span>
+              </li>
+              <li>
+                <p>
+                  <span class="XQskgrQ check-icon" aria-hidden="true"
+                    style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg width="24" height="24"
+                      viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
+                      </path>
+                      <path
+                        d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
+                      </path>
+                    </svg></span>
+                  Quality work done quickly
+                </p>
+                <span class="text">Find the right freelancer to begin working on your <br> project within minutes.</span>
+              </li>
+              <li>
+                <p>
+                  <span class="XQskgrQ check-icon" aria-hidden="true"
+                    style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg width="24" height="24"
+                      viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
+                      </path>
+                      <path
+                        d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
+                      </path>
+                    </svg></span>
+                  Protected payments, every time
+                </p>
+                <span class="text">Always know what you'll pay upfront. Your payment <br> isn't released until you approve
+                  the work.</span>
+              </li>
+              <li>
+                <p><span class="XQskgrQ check-icon" aria-hidden="true"
+                    style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg width="24" height="24"
+                      viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
+                      </path>
+                      <path
+                        d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
+                      </path>
+                    </svg></span>
+                  24/7 support
+                </p>
+                <span class="text">Questions? Our round-the-clock support team is <br> available to help anytime,
+                  anywhere.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 pd-0 pd-0">
+          <div class="proposition__vidieo d-flex">
+            <video width="100%" controls poster="./images/selling-proposition-still-1400-x1.png">
+              <source src="./images/proposition.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Marketplace -->
-
+  <section id="marketplace">
+    <div class="container">
+      <div class="title">
+        <h2>Explore the marketplace</h2>
+      </div>
+      <col-lg-12>
+        <ul class="categories-list d-flex flex-wrap">
+          <li><a href="">
+              <img src="./images/graphics-design.d32a2f8.svg" alt="">Graphics & Design
+            </a></li>
+          <li><a href="">
+              <img src="./images/online-marketing.74e221b.svg" alt="">Digital Marketing
+            </a></li>
+          <li><a href="">
+              <img src="./images/writing-translation.32ebe2e.svg" alt="">Writing & Translation
+            </a></li>
+          <li><a href="">
+              <img src="./images/video-animation.f0d9d71.svg">Video & Animation
+            </a></li>
+          <li><a href="">
+              <img src="./images/music-audio.320af20.svg" alt="">Music & Audio
+            </a></li>
+          <li><a href="">
+              <img src="./images/programming.9362366.svg" alt="">Programming & Tech
+            </a></li>
+          <li><a href="">
+              <img src="./images/business.bbdf319.svg" alt="">Business
+            </a></li>
+          <li><a href="">
+              <img src="./images/lifestyle.745b575.svg" alt="">Lifestyle
+            </a></li>
+          <li><a href="">
+              <img src="./images/data.718910f.svg" alt="">Data
+            </a></li>
+          <li><a href="">
+              <img src="./images/photography.01cf943.svg" alt="">Photography
+            </a></li>
+        </ul>
+      </col-lg-12>
+    </div>
+  </section>
 
   <!-- Business -->
+  <section id="business">
+    <div class="container pd-0">
+      <div class="col-lg-12 pd-0 d-flex">
+        <div class="col-lg-6 pd-0">
+          <div class="business__text">
+            <h4> fiverr <p>business.</p> <span>NEW</span></h4>
+            <h5>A business solution <br> designed for <i>teams</i></h5>
+            <p class="text">Upgrade to a curated experience packed with tools <br> and benefits, dedicated to businesses
+            </p>
+            <ul>
+              <li>
+                <span class="XQskgrQ check-icon" aria-hidden="true"
+                  style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg width="24" height="24"
+                    viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
+                    </path>
+                    <path
+                      d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
+                    </path>
+                  </svg></span>
+                Connect to freelancers with proven business experience
+              </li>
+              <li><span class="XQskgrQ check-icon" aria-hidden="true"
+                  style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg width="24" height="24"
+                    viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
+                    </path>
+                    <path
+                      d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
+                    </path>
+                  </svg></span>
+                Get matched with the perfect talent by a customer success manager
+              </li>
+              <li><span class="XQskgrQ check-icon" aria-hidden="true"
+                  style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg width="24" height="24"
+                    viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
+                    </path>
+                    <path
+                      d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
+                    </path>
+                  </svg></span>
+                Manage teamwork and boost productivity with one powerful workspace
+              </li>
+            </ul>
 
+            <button class="btn__business">Explore Fiverr Business</button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pd-0">
+          <div class="business__img">
+            <img src="./images/business-desktop-870-x1.png" alt="" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Testimonials -->
   <section id="testinonials">
@@ -628,7 +1102,46 @@
   </section>
 
   <!-- Guides -->
+  <section id="guildes">
+    <div class="container pd-0">
+      <div class="col-lg-12 pd-0">
+        <div class="title d-flex justify-content-between">
+          <h2 class="header">Fiverr guides</h2>
+          <a class="see__more" href="">See More Guides <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
 
+        <div class="guildes__content d-flex">
+          <div class="col-lg-4 ">
+            <div class="guildes__item">
+              <img src="./images/guide-start-online-business-552-x2.png" alt="" width="100%">
+              <h6>Start an online business and work from home</h6>
+              <p>
+                A complete guide to starting a small business online
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="guildes__item">
+              <img src="./images/guide-digital-marketing-552-x2.png" alt="" width="100%">
+              <h6>Digital marketing made easy</h6>
+              <p>
+                A practical guide to understand what is digital marketing
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="guildes__item">
+              <img src="./images/guide-create-a-logo-552-x2.png" alt="" width="100%">
+              <h6>Create a logo for your business</h6>
+              <p>
+                A step-by-step guide to create a memorable business logo
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Sign Up -->
   <div class="container">
@@ -767,7 +1280,6 @@
 
   </footer>
 
-
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
     integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
@@ -813,6 +1325,21 @@
         // instead of a settings object
       ]
     });
+    $('.caruseol__bg').slick({
+      infinite: true,
+      speed: 100,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 2500,
+    });
+  </script>
+  <!-- <script>
+    var videoPlayer = document.getElementById('video-player');
+    var myVideo = document.getElementById('myVideo');
+    function stopVideo() {
+      videoPlayer.style.display = "none";
+    } -->
   </script>
 
   <!-- Testimonials Slick -->
@@ -893,6 +1420,7 @@
     });
   </script>
 
+  <script src="/js/main.js"></script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -904,6 +1432,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>

@@ -1,0 +1,31 @@
+#proposition{
+    padding: 96px 0;
+    background-color: #f1fdf7;
+    position: relative;
+
+    .proposition__text{
+        padding-right: 11%;
+        h2{
+            @include style-text($fs-8, $fw-6, $color-black-1);
+            padding-bottom: 24px;
+        }
+        p{
+            @include style-text($fs-2, $fw-6, $color-black-1);
+            margin-bottom: 8px;
+
+        }
+        .text{
+            @include style-text($fs-2, $fw-3, $color-gray-6);
+        }
+        .check-icon{
+            margin-right: 10px;
+        }
+        li{
+            list-style: none;
+            padding-bottom: 24px;
+        }
+    }
+    .proposition__vidieo{
+        margin: 40px 0;
+    }
+}

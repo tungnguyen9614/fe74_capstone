@@ -9,8 +9,48 @@
     line-height: 15px;
     margin: auto 0;
     transition: 0.4s;
+    margin-left: 10px;
     &:hover{
         background-color: #1dbf73;
         border-color: #1dbf73;
+    }
+}
+.btn-dark{
+    height: 42px;
+    width: 50px;
+    border-radius: 0 4px 4px 0;
+}
+.btn-success{
+    height: 48px;
+    border-radius: 0 4px 4px 0;
+    padding: 12px 24px;
+    background-color: #1dbf73;
+    font-weight: $fw-5;
+    &:hover{
+        background-color: #19a463;;
+    }
+}
+.btn-primary{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin:0 5px;
+    font-size: $fs-bt;
+    font-weight: $fw-5;
+    padding: 1px 12px 0;
+    &:hover{
+        background-color: $color-w;
+        color: $color-black-1;
+        border-color: transparent;
+    }
+}
+.btn__business{
+    @include btn-style($fs-1, $fw-5, $color-w, $color-green-2);
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: transparent 1px solid;
+    transition: all 0.3s;
+    &:hover{
+        background-color: #19a463;
     }
 }

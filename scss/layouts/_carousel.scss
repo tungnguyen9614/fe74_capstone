@@ -1,0 +1,143 @@
+#carousel {
+    height: 680px;
+
+    .slick-next {
+        display: none !important;
+    }
+
+    .caruseol__bg {
+
+        .hero__andrea {
+            background-image: url(/images/andrea.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .hero__moon {
+            background-image: url(/images/moon.png);
+
+            .hero__name {
+                p {
+                    &::before {
+                        content: "";
+                        width: 77px;
+                        position: absolute;
+                        bottom: 11%;
+                        right: 7%;
+                        display: block;
+                        height: 17px;
+                        background-size: 77px;
+                        background-image: url(/images/five_stars.e5c37f5.svg);
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+
+        .hero__ritika {
+            background-image: url(/images/ritika.png);
+        }
+
+        .hero__zach {
+            background-image: url(/images/zach.png);
+        }
+
+        .hero__grabrielle {
+            background-image: url(/images/gabrielle.png);
+
+            .hero__name {
+                p {
+                    &::before {
+                        content: "";
+                        width: 77px;
+                        position: absolute;
+                        bottom: 11%;
+                        right: 7%;
+                        display: block;
+                        height: 17px;
+                        background-size: 77px;
+                        background-image: url(/images/five_stars.e5c37f5.svg);
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+
+        .hero__name {
+            height: 680px;
+            position: relative;
+
+            p {
+                color: $color-w;
+                margin-top: auto;
+                color: #fff;
+                display: inline-block;
+                padding-bottom: 32px;
+                font-weight: $fw-5;
+            }
+        }
+    }
+
+    .carousel__content {
+        position: relative;
+    }
+
+    .carousel__search {
+        position: absolute;
+        top: 40%;
+        left: 13%;
+
+        .search__item {
+
+            h1 {
+                font-size: 48px;
+                color: $color-w;
+                font-weight: $fw-6;
+                margin-bottom: 24px;
+
+                i {
+                    font-size: 48px;
+                    color: $color-w;
+                    font-weight: $fw-4;
+                }
+            }
+
+        }
+
+        .seach__carsousel {
+            width: 650px;
+            position: relative;
+
+            .form-control {
+                width: 84%;
+                height: 48px;
+                padding-left: 44px;
+                border-radius: 4px 0 0 4px;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+
+            i {
+                position: absolute;
+                left: 3%;
+                top: 33%;
+                color: $color-gray-4;
+            }
+
+        }
+
+        .popular {
+            margin-top: 24px;
+
+            p {
+                color: white;
+                line-height: 23px;
+                margin: 0;
+                font-size: $fs-bt;
+                margin-right: 5px;
+            }
+        }
+    }
+}
