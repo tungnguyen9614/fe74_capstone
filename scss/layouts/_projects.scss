@@ -1,0 +1,73 @@
+#projects {
+    background-color: $color-gray-4;
+    padding: $pd-7 0;
+    @include style-arrow;
+
+    .projects__title {
+        h2 {
+            @include style-text($fs-8,$fw-6,$color-black-1);
+        }         
+    }
+
+    .projects__content {
+        .item {
+            border-radius: $bd-2;
+            overflow: hidden;
+            margin-right: $mg-2;
+
+            .card {
+                width: 300px;
+               border: none;
+            }
+    
+            .card-img-top {
+                height: 240px;
+                    object-fit: cover;
+            }
+    
+            .card-body {
+                img {
+                    border-radius: 50%;
+                    height: $hei-2;              
+                }
+                
+                .projects__item__title p {
+                    @include style-text($fs-0,$fw-3,$color-black-1);
+                    font-family: domaine;
+                    margin-bottom: 0;
+                }
+    
+                .projects__author p {
+                    @include style-text($fs-0,$fw-5,$color-gray-3);
+                }
+            }
+        }
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .see__more {
+        position: absolute;
+        top: 12px;
+        right: 40px;
+
+        span {
+            font-weight: $fw-4;
+            i {
+                margin-left: $mg-1;
+                font-size: 10px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .see__more {
+            position: relative;
+            margin-left: $mg-8;
+        }
+    }
+
+    
+}

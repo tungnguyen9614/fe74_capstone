@@ -3,8 +3,7 @@
 
     .services__title {
         h2 {
-            color: $color-black-1;
-            font-weight: $fw-6;
+            @include style-text($fs-8,$fw-6,$color-black-1);
         }        
     }
 
@@ -88,19 +87,7 @@
         }
     }
 
-    .slick-prev:before, .slick-next:before {
-        font-size: $fs-9;
-        color: $color-black-1;
-    }
-
-    .slick-next {
-        margin-right: $mg-7;
-    }
-
-    .slick-prev {
-        margin-left: -$mg-6;
-        z-index: 1;
-    }
+    @include style-arrow;
 
     
 }

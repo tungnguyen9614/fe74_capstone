@@ -1,0 +1,78 @@
+footer {
+    margin-top: $mg-3;
+    border-top: 1px solid $color-gray-1;
+    .footer__top {
+        padding: $pd-7 0;
+        border-bottom: 1px solid $color-gray-1;
+        .footer__listTitle {
+            @include style-text($fs-1,$fw-5,$color-black-2);
+        }
+
+        .footer__list {
+            list-style: none;
+            li {
+                margin: $mg-5 0;
+                a {
+                    @include style-text($fs-1,$fw-4,$color-gray-2);
+                }
+
+                .sub__a {
+                    @include style-text($fs-0,$fw-4,$color-gray-5);
+                }
+            }
+        }
+    }
+
+    .footer__bottom {
+        margin-top: $mg-2;
+
+        .footer__left {
+            .footer__img {
+                width: 80px;
+                object-fit: cover;
+                margin-right: $mg-2;
+            }
+
+            span {
+                @include style-text($fs-0,$fw-3,$color-gray-1);
+            }
+        }
+
+        .footer__right {
+            .socials {
+                li {
+                    list-style: none;
+                    a {
+                        i {
+                            @include style-text($fs-2,$fw-5,$color-gray-2);
+                            margin: 0 $mg-6;
+                        }
+                    }
+                }
+            }
+
+            .settings {
+                li {
+                    list-style: none;
+                    margin: 0 $mg-6;
+                    @include style-text($fs-0,$fw-5,$color-gray-2);
+                    cursor: pointer;
+
+                    span {
+                        @include style-text($fs-0,$fw-5,$color-gray-2); font-weight: $fw-5;
+                    }
+
+                    .fa-person {
+                        color: $color-gray-5;
+                        width: 33px;
+                        height: 33px;
+                        line-height: 30px;
+                        text-align: center;
+                        border: 1px solid $color-gray-1;
+                        border-radius: 50%;
+                    }
+                    }
+                }
+            }
+        }
+}
