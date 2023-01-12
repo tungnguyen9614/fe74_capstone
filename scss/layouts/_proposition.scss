@@ -15,7 +15,7 @@
 
         }
         .text{
-            @include style-text($fs-2, $fw-3, $color-gray-1);
+            @include style-text($fs-2, $fw-3, $color-gray-6);
         }
         .check-icon{
             margin-right: 10px;
