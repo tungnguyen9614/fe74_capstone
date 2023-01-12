@@ -11,3 +11,9 @@
     background-repeat: no-repeat;
     height: 100%;
 }
+@mixin btn-style($fs, $fw, $color, $bgcolor) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    background-color: $bgcolor;
+}

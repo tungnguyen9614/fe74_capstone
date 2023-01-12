@@ -1,0 +1,43 @@
+#business{
+    padding: 96px 0;
+    background-color: #0d084d;
+    .business__text{
+        h4{
+            margin-bottom: 8px;
+            padding-bottom: 32px;
+            @include style-text($fs-5, $fw-7, $color-w);
+            p{
+                @include style-text($fs-5, $fw-4, $color-w);
+                display: inline;
+            }
+            span{
+                @include style-text(11px , $fw-5, $color-w);
+                background-color: #584aff;
+                border-radius: 20px;
+                padding: 2px 6px;
+            }
+        }
+        h5{
+            padding-bottom: 24px;
+            @include style-text($fs-8, $fw-6, $color-w);
+            i{
+                @include style-text($fs-8, $fw-4, $color-w);
+            }
+        }
+        .text{
+            @include style-text($fs-2, $fw-3, $color-w);
+        }
+        ul{
+            margin-bottom: 48px;
+            li{
+                list-style: none;
+                @include style-text($fs-1, $fw-4, $color-w);
+                padding-bottom: 12px;
+                .check-icon{
+                    margin-right: 10px;
+                }
+            }
+
+        }
+    }
+}

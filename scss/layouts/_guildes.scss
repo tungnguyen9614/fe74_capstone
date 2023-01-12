@@ -1,0 +1,44 @@
+#guildes{
+    padding: 96px 0;
+    .col-lg-12{
+        padding: 0 -15px;
+    }
+    h2{
+        @include style-text($fs-8, $fw-6, $color-black-1);
+        padding-bottom: 24px;
+    }
+    .see__more{
+        text-decoration: none;
+        @include style-text($fs-1, $fw-4, $color-blue-1);
+        &:hover{
+            color: $color-blue-1;
+        }
+        i{
+            font-size: 10px;
+           
+        }
+    }
+    .guildes__content{
+        margin: 0 -15px;
+        .guildes__item{
+            .col-lg-4{
+                padding: 0 15px;
+            }
+            img{
+                border-radius: 4px;
+                cursor: pointer;
+                transition: opacity .3s ease-in-out;
+                margin-bottom: 16px;
+                &:hover{
+                    opacity: 0.9;
+                }
+            }
+            h6{
+                @include style-text($fs-2, $fw-5, $color-black-1);
+            }
+            p{
+                @include style-text($fs-1, $fw-4, $color-gray-1);
+            }
+        }
+    }
+}
