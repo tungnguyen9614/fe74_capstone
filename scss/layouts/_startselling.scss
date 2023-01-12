@@ -74,13 +74,17 @@ body {
             .btn-popular {
                 border: 1px solid #fafafa;
                 border-radius: 40px;
-                background: rgba(34, 35, 37, .9);
+                background-color: rgba(34, 35, 37, .9);
                 padding: 3px 12px;
                 line-height: 1;
                 font-size: 14px;
                 height: 27px;
                 color: white;
                 margin-right: 12px;
+
+                &:hover {
+                    background-color: rgba(64,65,69,.9);;
+                }
             }
         }
     }

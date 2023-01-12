@@ -703,7 +703,7 @@ header .search__hiden {
 #guildes .guildes__content .guildes__item p {
   font-size: 16px;
   font-weight: 500;
-  color: #b5b6ba;
+  color: #74767e;
 }
 
 #testinonials {
@@ -713,7 +713,7 @@ header .search__hiden {
   width: 466px;
 }
 #testinonials .testi__context {
-  padding: 0 44px 0 60px;
+  padding-top: 35px;
 }
 #testinonials .testi__context .testi__name {
   font-size: 1.2rem;
@@ -734,6 +734,7 @@ header .search__hiden {
   font-weight: 500;
   color: #003912;
   font-family: domaine;
+  line-height: 30px;
 }
 #testinonials .slick-prev:before, #testinonials .slick-next:before {
   font-size: 3.5rem;
@@ -819,7 +820,8 @@ header .search__hiden {
 }
 #projects .projects__content .item .card-img-top {
   height: 240px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #projects .projects__content .item .card-body img {
   border-radius: 50%;
@@ -863,7 +865,7 @@ header .search__hiden {
   background-image: url("./../../images/bg-signup-1400-x1.png");
   background-position: center;
   background-size: cover;
-  padding: 80px 0 80px 80px;
+  padding: 120px 0 120px 100px;
 }
 #signup .signup__content .signup__context {
   margin-bottom: 40px;
@@ -873,6 +875,7 @@ header .search__hiden {
   font-size: 3rem;
   font-weight: 700;
   color: #ffffff;
+  line-height: 50px;
 }
 #signup .signup__content .signup__context span .signup__i {
   font-size: 2.8rem;
@@ -921,7 +924,8 @@ footer .footer__bottom {
 }
 footer .footer__bottom .footer__left .footer__img {
   width: 80px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-right: 25px;
 }
 footer .footer__bottom .footer__left span {

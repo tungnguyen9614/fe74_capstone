@@ -5,7 +5,7 @@
     }
 
     .testi__context {
-        padding: 0 $pd-4 0 $pd-7;
+        padding-top: $pd-10;
 
         .testi__name {
             @include style-text($fs-2,$fw-4,$color-gray-2);
@@ -25,6 +25,7 @@
             .quote {
                 @include style-text($fs-7,$fw-4,$color-green-1);
                 font-family: domaine;
+                line-height: 30px;
             }       
         }
     }
