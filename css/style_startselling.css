@@ -64,11 +64,14 @@ body #content .popular_button p {
 body #content .popular_button .btn-popular {
   border: 1px solid #fafafa;
   border-radius: 40px;
-  background: rgba(34, 35, 37, 0.9);
+  background-color: rgba(34, 35, 37, 0.9);
   padding: 3px 12px;
   line-height: 1;
   font-size: 14px;
   height: 27px;
   color: white;
   margin-right: 12px;
+}
+body #content .popular_button .btn-popular:hover {
+  background-color: rgba(64, 65, 69, 0.9);
 }/*# sourceMappingURL=style_startselling.css.map */

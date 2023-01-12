@@ -2,14 +2,15 @@
     background-image: url("./../../images/bg-signup-1400-x1.png");
     background-position: center;
     background-size: cover;   
-    padding: 80px 0 80px 80px;
+    padding: 120px 0 120px 100px;
     .signup__content {
         .signup__context{
             margin-bottom: $mg-8;
 
             span {
                 font-family: domaine;
-                @include style-text($fs-10,$fw-6,$color-white-1);           
+                @include style-text($fs-10,$fw-6,$color-white-1); 
+                line-height: 50px;          
 
                 .signup__i {
                     @include style-text($fs-11,$fw-3,$color-white-1);                       
