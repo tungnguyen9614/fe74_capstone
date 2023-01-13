@@ -588,6 +588,44 @@ header .search__hiden {
   margin-right: 5px;
 }
 
+@media only screen and (max-width: 900px) {
+  .popular {
+    display: none !important;
+  }
+  .seach__carsousel form {
+    display: block !important;
+  }
+  .seach__carsousel form input {
+    border-radius: 4px !important;
+  }
+  .seach__carsousel form button {
+    width: 84% !important;
+    border-radius: 4px !important;
+    margin-top: 15px !important;
+  }
+  .seach__carsousel form i {
+    top: 14% !important;
+  }
+  .hero__name p {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .search__item h1 {
+    padding: 0 45px 0 0 !important;
+  }
+}
+@media only screen and (max-width: 676px) {
+  .search__item h1 {
+    padding: 0 80px 0 0 !important;
+  }
+  .form-control {
+    width: 70% !important;
+  }
+  .seach__carsousel form button {
+    width: 70% !important;
+  }
+}
 #proposition {
   padding: 96px 0;
   background-color: #f1fdf7;
@@ -851,6 +889,19 @@ header .search__hiden {
   }
   .testi__context {
     padding: 35px 44px 0px 30px !important;
+  }
+  .testi__video video {
+    width: 840px !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .testi__video video {
+    width: 600px !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .testi__video video {
+    width: 500px !important;
   }
 }
 #logoMaker {
