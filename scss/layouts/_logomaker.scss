@@ -1,5 +1,5 @@
 #logoMaker {
-    background-color: $color-blue-1;
+    background: $color-blue-1;
     position: relative;
     overflow: hidden;
     padding: $pd-11 $pd-7;
@@ -36,5 +36,13 @@
         bottom: 0;
         display: flex;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #logoMaker {
+        background-image: url("./../../images/logo-maker-banner-wide-desktop.png") !important;
+        background-size: cover;
+        background-position: center;
     }
 }

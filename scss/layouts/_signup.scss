@@ -24,5 +24,11 @@
             font-weight: bold;
             border-radius: $bd-2;
         }     
+    }  
+}
+
+@media only screen and (max-width: 770px) {
+    #signup {
+      background-position: bottom right;
     }
 }
