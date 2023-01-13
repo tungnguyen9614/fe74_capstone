@@ -18,17 +18,42 @@
     background-color: $bgcolor;
 }
 @mixin style-arrow() {
-    .slick-prev:before, .slick-next:before {
-        font-size: $fs-9;
-        color: $color-black-1;
+    .slick-prev:before {
+        content: "";
+        display: inline-block;
+        background: url("./../../images/arrows.a8b0bad.svg") no-repeat;
+        background-size: 16px 64px;
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
     }
 
-    .slick-next {
-        margin-right: $mg-7;
+    .slick-next:before {
+        content: "";
+        display: inline-block;
+        background: url("./../../images/arrows.a8b0bad.svg") no-repeat;
+        background-size: 16px 64px;
+        background-position: 0 -48px;
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
     }
+
+    .slick-arrow {
+        width: 50px;
+        height: 50px;
+        line-height: 12px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px 0 rgb(0 0 0 / 30%);
+    }
+
+    // .slick-next {
+    //     margin-right: $mg-6;
+    // }
 
     .slick-prev {
-        margin-left: -$mg-6;
+        // margin-left: -$mg-6;
         z-index: 1;
     }
 }

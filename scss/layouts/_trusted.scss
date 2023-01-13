@@ -22,3 +22,13 @@
     }
     
 }
+
+@media only screen and (max-width: 992px) {
+    .trusted__context {
+      display: none;
+    }
+
+    .trusted__content ul li {
+        margin: 0 $mg-6 !important;
+    }
+}

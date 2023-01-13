@@ -1,11 +1,11 @@
 #testinonials {
     margin: $mg-3;
     .testi__video video {
-        width: 466px;
+        width: 530px;
     }
 
     .testi__context {
-        padding-top: $pd-10;
+        padding: $pd-10 $pd-4 0 0;
 
         .testi__name {
             @include style-text($fs-2,$fw-4,$color-gray-2);
@@ -31,6 +31,26 @@
     }
 
     @include style-arrow;
+}
 
-  
+@media only screen and (max-width: 1500px) {
+    .testi__context {
+        padding: 35px 44px 0px 70px !important;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .testi__context {
+        padding: 35px 44px 0px 120px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .quote {
+      font-size: $fs-5 !important;
+    }
+
+    .testi__context {
+        padding: 35px 44px 0px 30px !important;
+    }
 }
