@@ -60,3 +60,148 @@
     }
 }
 
+
+@media only screen and (max-width: 900px) {
+    .popular {
+        display: none !important;
+    }
+
+    .seach__carsousel  {
+        form {
+            display: block !important;
+
+            input {
+                border-radius: 4px !important;
+            }
+
+            button {               
+                width: 84% !important;
+                border-radius: 4px !important;
+                margin-top: 15px !important;            
+            }
+
+            i {
+                top: 14% !important;
+            }
+        }      
+    }
+
+    .hero__name {
+        p { 
+            display: none !important;
+        }
+
+    }
+
+ 
+}
+
+@media only screen and (max-width: 767px) {
+    .search__item {
+        h1 {
+            padding: 0 45px 0 0 !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    .search__item {
+        h1 {
+            padding: 0 80px 0 0 !important;
+        }
+    }
+
+    .form-control {
+        width: 70% !important;
+    }
+
+    .seach__carsousel form button  {
+        width: 70% !important;
+    }
+}
+
+// Footer
+@media only screen and (max-width: 1200px) {
+    .footer__right {
+      margin-top: $mg-6;
+    }
+}
+
+// Logo maker
+@media screen and (max-width: 992px) {
+    #logoMaker {
+        background-image: url("./../../images/logo-maker-banner-wide-desktop.png") !important;
+        background-size: cover;
+        background-position: center;
+        padding: $pd-7;
+    }
+}
+
+// Projects
+// @media only screen and (max-width: 1200px) {
+//     .see__more {
+//         position: relative;
+//         margin-left: $mg-8;
+//     }
+// }
+
+
+//Testimonials
+@media only screen and (max-width: 1500px) {
+    .testi__context {
+        padding: 35px 44px 0px 70px !important;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .testi__context {
+        padding: 35px 44px 0px 120px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .quote {
+      font-size: $fs-5 !important;
+    }
+
+    .testi__context {
+        padding: 35px 44px 0px 30px !important;
+    }
+
+    .testi__video video {
+        width: 840px !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .testi__video video {
+        width: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .testi__video video {
+        width: 500px !important;
+    }
+}
+
+//Trusted
+@media only screen and (max-width: 992px) {
+    .trusted__context {
+      display: none;
+    }
+
+    .trusted__content ul li {
+        margin: 0 $mg-6 !important;
+    }
+}
+
+//Navbar 
+@media only screen and (max-width: 1400px) {
+    .nav__search {
+        display: none;
+    }
+}
+
+
+

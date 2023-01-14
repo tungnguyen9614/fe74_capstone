@@ -33,40 +33,4 @@
     @include style-arrow;
 }
 
-@media only screen and (max-width: 1500px) {
-    .testi__context {
-        padding: 35px 44px 0px 70px !important;
-    }
-}
 
-@media only screen and (max-width: 1300px) {
-    .testi__context {
-        padding: 35px 44px 0px 120px !important;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .quote {
-      font-size: $fs-5 !important;
-    }
-
-    .testi__context {
-        padding: 35px 44px 0px 30px !important;
-    }
-
-    .testi__video video {
-        width: 840px !important;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .testi__video video {
-        width: 600px !important;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .testi__video video {
-        width: 500px !important;
-    }
-}

@@ -8,9 +8,7 @@
 // base 
 @import "./base/reset";
 
-// components 
-@import "./components/button";
-@import "./components/responsive";
+
 // layout 
 @import "./layouts/header";
 @import "./layouts/services";
@@ -25,6 +23,10 @@
 @import "./layouts/projects";
 @import "./layouts/signup";
 @import "./layouts/footer";
+
+// components 
+@import "./components/button";
+@import "./components/responsive";
 
 
 

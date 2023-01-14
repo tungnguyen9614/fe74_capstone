@@ -43,9 +43,21 @@ footer {
                 li {
                     list-style: none;
                     a {
+                        text-decoration: none;
                         i {
                             @include style-text($fs-2,$fw-5,$color-gray-2);
                             margin: 0 $mg-6;
+                            display: block;
+                            width: 37px;
+                            text-align: center;
+                            height: 37px;
+                            line-height: 37px;
+                            background-color: $color-white-1;
+                            border-radius: 50%;
+                            transition: all 0.2s;
+                            &:hover {
+                                background-color: $color-gray-7;
+                            }
                         }
                     }
                 }
@@ -53,26 +65,50 @@ footer {
 
             .settings {
                 li {
-                    list-style: none;
-                    margin: 0 $mg-6;
-                    @include style-text($fs-0,$fw-5,$color-gray-2);
-                    cursor: pointer;
+                        list-style: none;
+                        margin: 0 $mg-6;
+                        @include style-text($fs-0,$fw-5,$color-gray-2);
+                        cursor: pointer;
 
-                    span {
-                        @include style-text($fs-0,$fw-5,$color-gray-2); font-weight: $fw-5;
-                    }
+                        span {
+                            @include style-text($fs-0,$fw-5,$color-gray-2); font-weight: $fw-5;
+                        }
 
-                    .fa-person {
-                        color: $color-gray-5;
-                        width: 33px;
-                        height: 33px;
-                        line-height: 30px;
-                        text-align: center;
-                        border: 1px solid $color-gray-1;
-                        border-radius: 50%;
+                        .fa-person {
+                            color: $color-black-3;
+                            width: 33px;
+                            height: 33px;
+                            line-height: 30px;
+                            text-align: center;
+                            border: 1px solid $color-black-3;
+                            border-radius: 50%;
+                            transition: all 0.2s;
+
+                            &:hover {
+                                background-color: $color-gray-7;
+                                border: 1px solid $color-gray-7;
+                                color : $color-black-2;
+                            }
+                        }
                     }
+                }
+
+                .hover__gray {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100px;
+                    height: 34px;
+                    border-radius: 15px;
+                    background-color: $color-white-1;
+                    transition: all 0.2s;
+
+                    &:hover {
+                        background-color: $color-gray-7;
+                        font-weight: 700;
                     }
                 }
             }
         }
 }
+

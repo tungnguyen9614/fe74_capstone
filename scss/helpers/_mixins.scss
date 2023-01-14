@@ -57,3 +57,10 @@
         z-index: 1;
     }
 }
+
+@mixin style-opacity() {
+    transition: opacity .3s ease-in-out;                   
+    &:hover {
+        opacity: 0.8;
+    }
+}
