@@ -23,12 +23,12 @@
             background-color: $color-green-2;
             font-weight: bold;
             border-radius: $bd-2;
+            text-decoration: none;
+
+            &:hover {
+                background-color: $color-green-3 !important;
+            }
         }     
     }  
 }
 
-@media only screen and (max-width: 770px) {
-    #signup {
-      background-position: bottom right;
-    }
-}

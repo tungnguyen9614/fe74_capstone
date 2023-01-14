@@ -16,6 +16,7 @@
             border-radius: $bd-2;
             overflow: hidden;
             margin-right: $mg-6;
+            cursor: pointer;
     
             p {
                 @include style-text($fs-1,$fw-5,$color-white-1);
@@ -26,62 +27,54 @@
                 @include style-text($fs-5,$fw-7,$color-white-1)
             }
 
-             
-                    // @each $item in $services {
-                        
-                    //     @for $items from 1 through 10 {
-                    //     .item--#{$items} {
-                    //         @include style-background(url("./../../images/#{$item}.png"));
-                    //     }
-                        
-                    // }
-                        
-                    // @for $items from 1 through 10 {
-                    //     .item--#{$items} {
-                    //         @each $item in $services {
-                    //             @include style-background(url("./../../images/#{$item}.png"));
-                    //         }                  
-                    //     }                    
-                
-    
             .item--1 {
                 @include style-background(url("./../../images/logo-design-2x.png"));
+                @include style-opacity();
             }
 
             .item--2 {
                 @include style-background(url("./../../images/wordpress-2x.png"));
+                @include style-opacity();
             }
 
             .item--3 {
                 @include style-background(url("./../../images/voiceover-2x.png"));
+                @include style-opacity();
             }
 
             .item--4 {
                 @include style-background(url("./../../images/animated-explainer-2x.png"));
+                @include style-opacity();
             }
 
             .item--5 {
                 @include style-background(url("./../../images/social-2x.png"));
+                @include style-opacity();
             }
 
             .item--6 {
                 @include style-background(url("./../../images/seo-2x.png"));
+                @include style-opacity();
             }
 
             .item--7 {
                 @include style-background(url("./../../images/illustration-2x.png"));
+                @include style-opacity();
             }
 
             .item--8 {
                 @include style-background(url("./../../images/translation-2x.png"));
+                @include style-opacity();
             }
 
             .item--9 {
                 @include style-background(url("./../../images/data-entry-2x.png"));
+                @include style-opacity();
             }
 
             .item--10 {
                 @include style-background(url("./../../images/book-covers-2x.png"));
+                @include style-opacity();
             }
     
         }
